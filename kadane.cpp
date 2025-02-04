@@ -1,7 +1,9 @@
+// This is a program which implements Kadane's Algorithm
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 
+// The following is the main method/ primary logic for the Kadane's Algorithm
 int maxSubarraySum(vector<int> &arr){
     int res = arr[0];
     int maxEnding = arr[0];
